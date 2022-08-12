@@ -6,7 +6,7 @@ st.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier")
 st.caption('Simple but effective tips for every python lovers')
 
 # add photo
-image = Image.open(image_1.png)
+image = Image.open('image_1.png')
 st.image(image, caption='Photo by Miesha Maiden from Pexels')
 
 
