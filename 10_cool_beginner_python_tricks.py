@@ -145,7 +145,6 @@ st.subheader('Output')
 code_7_2 = '''{1, 2, 3, 4, 5, 6, 7, 8, 9}'''
 
 st.code(code_7_2, language='python')
-st.markdown('This process is also called list unpacking and you can apply this method for more than 2 variables also!')
 
 #------------ 8 -----------------
 
@@ -163,7 +162,6 @@ st.subheader('Output')
 code_8_2 = '''30'''
 
 st.code(code_8_2, language='python')
-st.markdown('This process is also called list unpacking and you can apply this method for more than 2 variables also!')
 
 #------------- 9 ----------------
 
@@ -184,4 +182,33 @@ code_9_2 = '''b = 100
 b = 100'''
 
 st.code(code_9_2, language='python')
-st.markdown('This process is also called list unpacking and you can apply this method for more than 2 variables also!')
+
+# ------------------ 10 ----------------
+
+st.header('10. Use a password in your code')
+st.markdown('This python trick is amazing for securing your code with a password. We will use the getpass() function from the library getpass which encodes your input. This will prevent anyone from running the code without a password. Isn’t that cool!') 
+st.subheader('Example')
+
+code_10_1 = ''' from getpass import getpass
+password = getpass(“password: “)
+if password == “abcd”:
+    print(“welcome strnger!”)
+else:
+    print(“wrong password”)'''
+
+st.code(code_10_1, language='python')
+
+st.subheader('Output')
+code_10_2 = '''password: **** [abcd]
+Password: **** [abdc]
+Wrong password'''
+
+st.code(code_10_2, language='python')
+
+st.markdown('Here is a book on Python programming that I would definitely recommend for all beginners.')
+st.markdown('...')
+
+st.subheader('Conclusion')
+st.markdown('These were a few amazing Python tips and tricks which will make your work a lot easier while coding. There are many more shortcuts like these that you can explore from the official documentation or any other website.')
+st.markdown('Note: This article contains an affiliate link. This means that if you click on it and choose to buy the resource I linked above, a small portion of your subscription fee will go to me.')
+st.markdown('However, the recommended resource is experienced by me and helped me in my data science career journey.')
