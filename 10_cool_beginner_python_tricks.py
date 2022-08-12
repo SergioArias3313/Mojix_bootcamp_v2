@@ -128,3 +128,42 @@ code_6_2 = '''a = 1
 b = [2, 3, 4, 5]'''
 st.code(code_6_2, language='python')
 st.markdown('This process is also called list unpacking and you can apply this method for more than 2 variables also!')
+
+#------------ 7 --------------
+
+st.header('7. Remove duplicate list items')
+st.markdown('Do you have duplicate items in your list which you want to remove? You can do that with only one line of code using the set() function.') 
+st.subheader('Example')
+
+code_7_1 = ''' mylist = [1,1,1,2,2,3,3,4,4,5,6,7,7,8,9]
+newlist = set(mylist)
+print(newlist) '''
+
+st.code(code_7_1, language='python')
+
+st.subheader('Output')
+code_7_2 = '''{1, 2, 3, 4, 5, 6, 7, 8, 9}'''
+
+st.code(code_7_2, language='python')
+st.markdown('This process is also called list unpacking and you can apply this method for more than 2 variables also!')
+
+#------------ 8 -----------------
+
+st.header('8. Lambda function')
+st.markdown('If you need a function that is not very complicated, it can be done easily in one line using lambda. They are also called anonymous functions and are used heavily in data science and web development.') 
+st.subheader('Example')
+st.markdown('Let’s say you want to write a function to multiply two numbers. Instead of writing a conventional function, you can do that in one line using :')
+
+code_8_1 = ''' mul = lambda a,b: a*b
+mul(5,6) '''
+
+st.code(code_8_1, language='python')
+
+st.subheader('Output')
+code_8_2 = '''30'''
+
+st.code(code_8_2, language='python')
+st.markdown('This process is also called list unpacking and you can apply this method for more than 2 variables also!')
+
+#------------- 9 ----------------
+
