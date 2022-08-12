@@ -1,9 +1,10 @@
 import streamlit as st
 import pandas as pd
 
-st.write("Let's star with the tricks")
+st.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier")
+st.markdown(body, unsafe_allow_html=False)
 
-Mylist = [1,2,3]
-if(l := len(mylist) > 2): 
-    print(l)
-    st.write(l)
+#Mylist = [1,2,3]
+#if(l := len(mylist) > 2): 
+#    print(l)
+st.write("l")
