@@ -109,3 +109,22 @@ st.subheader('Output')
 code_5_4 = '''{‘Rajesh’: 87, ‘kumar’: 90, ‘Kriti’: 88}'''
 
 st.code(code_5_4, language='python')
+
+#------------- 6 ------------
+
+st.header('6. Assigning multiple list values to a variable')
+st.markdown('If you want to assign some specific values of a list to a variable and all the remaining values to another variable in a list format, you can use the following technique:') 
+st.subheader('Example')
+
+code_6_1 = ''' mylist = [1,2,3,4,5]
+a,*b = mylist
+print(f”a =”,a)
+print(f”b =”,b)'''
+
+st.code(code_6_1, language='python')
+
+st.subheader('Output')
+code_6_2 = '''a = 1
+b = [2, 3, 4, 5]'''
+st.code(code_6_2, language='python')
+st.markdown('This process is also called list unpacking and you can apply this method for more than 2 variables also!')
