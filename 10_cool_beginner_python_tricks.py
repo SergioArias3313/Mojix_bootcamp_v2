@@ -167,3 +167,21 @@ st.markdown('This process is also called list unpacking and you can apply this m
 
 #------------- 9 ----------------
 
+st.header('9. Swapping variable value)
+st.markdown('One of the first programs that we learn while learning about variables is swapping the values of two variables. In python you can achieve that with one line of code:') 
+st.subheader('Example')
+
+code_9_1 = ''' a = 100
+b = 200
+a,b = b,a
+print(f’a = ‘,a)
+print(f’b = ‘,b) '''
+
+st.code(code_9_1, language='python')
+
+st.subheader('Output')
+code_9_2 = '''b = 100
+b = 100'''
+
+st.code(code_9_2, language='python')
+st.markdown('This process is also called list unpacking and you can apply this method for more than 2 variables also!')
