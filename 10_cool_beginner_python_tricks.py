@@ -19,6 +19,7 @@ st.markdown('                                    . . .')
 st.header('1. Walrus operator')
 st.markdown('The Walrus or := operator is one of the latest additions to python 3.8. It is an assignment operator that lets you assign value to a variable within an expression like conditional statements, loops, etc.')
 
+#---------------------------
 st.subheader('Example')
 code_1 = ''' Mylist = [1,2,3]
     if(l := len(mylist) > 2):
@@ -29,5 +30,16 @@ st.code(code_1, language='python')
 st.subheader('Output')
 code_2 = ''' 3 '''
 st.code(code_2, language='python')
+#----------------------------
 
 st.header('2. Splitting a string')
+st.markdown('If you want to split the components of a string into a list you can do that easily using the split() function in python. This will make the string operations a lot easier!')
+
+st.subheader('Example')
+code_3 = ''' string = "hello world"
+string.split()'''
+st.code(code_3, language='python')
+
+st.subheader('Output')
+code_4 = ''' ['hello', 'world']'''
+st.code(code_4, language='python')
